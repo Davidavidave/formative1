@@ -34,6 +34,6 @@ class Users extends BaseController
             ]
         ];
 
-        return view('users', $data);
+        return view('Users', $data);
     }
 }

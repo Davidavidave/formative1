@@ -34,6 +34,6 @@ class Customers extends BaseController
             ]
         ];
 
-        return view('customers', $data);
+        return view('Customers', $data);
     }
 }
